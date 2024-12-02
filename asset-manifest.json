@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/spending-heatmap/static/css/main.6c60e656.css",
+    "main.js": "/spending-heatmap/static/js/main.a8e349cf.js",
+    "index.html": "/spending-heatmap/index.html",
+    "main.6c60e656.css.map": "/spending-heatmap/static/css/main.6c60e656.css.map",
+    "main.a8e349cf.js.map": "/spending-heatmap/static/js/main.a8e349cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c60e656.css",
+    "static/js/main.a8e349cf.js"
+  ]
+}

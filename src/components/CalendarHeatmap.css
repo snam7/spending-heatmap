@@ -1,0 +1,70 @@
+.calendar-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.month-box {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #eeeeee;
+  color: #333;
+  cursor: pointer;
+  position: relative;
+}
+
+.color-empty {
+  background-color: #eeeeee;
+}
+
+.color-scale-0 {
+  background-color: #d6e685;
+}
+
+.color-scale-1 {
+  background-color: #8cc665;
+}
+
+.color-scale-2 {
+  background-color: #44a340;
+}
+
+.color-scale-3 {
+  background-color: #1e6823;
+}
+
+.color-scale-4 {
+  background-color: #00441b;
+}
+
+[data-tooltip-id="heatmap-tooltip"] {
+  cursor: pointer;
+}
+
+/* Tooltip Styling */
+.custom-tooltip {
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: left;
+  width: 250px; /* Adjust width for better readability */
+}
+
+.custom-tooltip div {
+  margin-bottom: 5px;
+}
+
+.custom-tooltip strong {
+  color: #d6e685;
+}
